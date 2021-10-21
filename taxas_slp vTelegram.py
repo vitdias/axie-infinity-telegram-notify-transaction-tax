@@ -10,7 +10,7 @@ from secrets import chave_api
 contador = 1
 
 
-# Site para pegar as ultimas interaçoes do meu bot: https://api.telegram.org/bot1986413662:AAG2SpE_aZe3wqEXcV4QpI9VdWpaaZW-5Wg/getUpdates
+# Site para pegar as ultimas interaçoes do meu bot: "https://api.telegram.org/bot" + chave_api + "/getUpdates"
 
 bot = telebot.TeleBot(chave_api)
 
